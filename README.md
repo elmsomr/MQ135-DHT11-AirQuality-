@@ -4,7 +4,7 @@ This project uses an **MQ-135 gas sensor** and a **DHT11 temperature/humidity se
 
 ---
 
-## 📌 Hardware Connections
+##  Hardware Connections
 
 | Component    | Arduino Nano Pin |
 |--------------|------------------|
@@ -15,13 +15,13 @@ This project uses an **MQ-135 gas sensor** and a **DHT11 temperature/humidity se
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 - [dhrubasaha08/DHT11 Library](https://github.com/dhrubasaha08/DHT11)
 
 ---
 
-## 🔧 Features
+##  Features
 
 - Calibration of MQ-135 sensor in clean air
 - Real-time gas concentration measurement (PPM)
@@ -30,7 +30,7 @@ This project uses an **MQ-135 gas sensor** and a **DHT11 temperature/humidity se
 
 ---
 
-## 🔍 Example Output
+##  Example Output
 
 ```
 Calibrated Ro value: 9500
@@ -39,7 +39,7 @@ Temp: 24°C | Humidity: 41% | Gas (PPM): 78.52 | Gas Type: Smoke / Alcohol / Ben
 
 ---
 
-## 🧪 How It Works
+##  How It Works
 
 - The MQ135 sensor outputs an analog value related to air pollutants.
 - This value is converted to a resistance ratio (Rs/Ro), which is then used to estimate gas concentration using a logarithmic formula.
@@ -48,7 +48,7 @@ Temp: 24°C | Humidity: 41% | Gas (PPM): 78.52 | Gas Type: Smoke / Alcohol / Ben
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 MQ135_DHT11_AirQuality/
@@ -58,6 +58,6 @@ MQ135_DHT11_AirQuality/
 
 ---
 
-## 🧾 License
+##  License
 
 MIT License
